@@ -1,3 +1,3 @@
 #!/bin/bash
-result=(count_directories ".")
+find . -type d -mindepth 1 | wc -1
 
